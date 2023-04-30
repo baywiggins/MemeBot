@@ -9,6 +9,7 @@ API_KEY = os.environ["API_KEY"]
 # Channels to fetch video IDs from
 channels = [
     {"name": "Heno Meme", "id": "UCwipXeXeikVfw4kh7bFQmjA"},
+    {"name": "Pie Memes", "id": "UCBhsEOaoRQ_KvbgbpXVhC8w"}
 ]
 
 # Initialize the YouTube API client
