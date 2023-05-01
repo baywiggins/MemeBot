@@ -1,15 +1,22 @@
-from youtube_api import get_authenticated_service, get_channel_videos
+from youtube_api import *
+from youtube_dl import *
+from json_functions import *
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
+# Reading the JSON file
+curVids = open_json("curVids.json")
+
+
+# Getting API Key from virtual environment
 API_KEY = os.environ["API_KEY"]
 
 # Channels to fetch video IDs from
 channels = [
-    {"name": "Heno Meme", "id": "UCwipXeXeikVfw4kh7bFQmjA"},
-    {"name": "Pie Memes", "id": "UCBhsEOaoRQ_KvbgbpXVhC8w"}
+    {"name": "Heno Meme", "id": os.environ["channel_1"]},
+    {"name": "Pie Memes", "id": os.environ["channel_2"]}
 ]
 
 # Initialize the YouTube API client
@@ -18,11 +25,13 @@ youtube = get_authenticated_service(API_KEY)
 # Fetch video IDs from each channel
 max_results_per_channel = 1
 
-for channel in channels:
-    print(f"Fetching videos from {channel['name']}:")
-    videos = get_channel_videos(youtube, channel['id'], max_results_per_channel)
+result = add_vids_to_json(channels, youtube, max_results_per_channel, curVids)
 
-    for video in videos:
-        print(f"  Video ID: {video['id']['videoId']}")
+# Writing the updated data back to the JSON file
+write_to_json("curVids.json", curVids)
 
-    print("\n")
+if(result):
+    url = "https://www.youtube.com/watch?v="
+    for channels in curVids:
+        # TODO: Implement video downloads
+        continue
