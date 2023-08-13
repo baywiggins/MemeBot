@@ -1,5 +1,5 @@
 import json
-from youtube_api import get_channel_videos
+from youtube.youtube_api import get_channel_videos
 
 def open_json(filepath):
     with open(filepath, 'r') as file:

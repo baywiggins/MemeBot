@@ -1,13 +1,12 @@
-from youtube_api import *
-from youtube_dl import *
-from json_functions import *
+from youtube.youtube_api import *
+from utils.json_functions import *
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
 # Reading the JSON file
-curVids = open_json("curVids.json")
+curVids = open_json("assets/curVids.json")
 
 
 # Getting API Key from virtual environment
@@ -28,7 +27,7 @@ max_results_per_channel = 1
 result = add_vids_to_json(channels, youtube, max_results_per_channel, curVids)
 
 # Writing the updated data back to the JSON file
-write_to_json("curVids.json", curVids)
+write_to_json("assets/curVids.json", curVids)
 
 if(result):
     url = "https://www.youtube.com/watch?v="
