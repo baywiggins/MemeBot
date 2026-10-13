@@ -1,0 +1,427 @@
+{
+  "as_of": "2026-10-12",
+  "summary": "No channel in the inspected pool met the seven-day daily requirement. Three less-frequent alternatives are enabled; two backups need content review.",
+  "sources": [
+    {
+      "id": "UCO8WCQsddotuNAH6-Pb_A0Q",
+      "name": "StreetCan",
+      "enabled": true,
+      "notes": "Less-frequent alternative; NOT verified daily. Short live-action memes and reaction inserts; sampled 0\u201335s. Readable text, portrait padding and a small watermark; full 9:32 source passed decode and pipeline checks.",
+      "research": {
+        "as_of": "2026-10-12",
+        "timezone": "America/New_York",
+        "daily_last_7": false,
+        "active_days_14": 6,
+        "uploads_per_day": {
+          "2026-09-28": 0,
+          "2026-09-29": 0,
+          "2026-09-30": 1,
+          "2026-10-01": 0,
+          "2026-10-02": 1,
+          "2026-10-03": 0,
+          "2026-10-04": 1,
+          "2026-10-05": 0,
+          "2026-10-06": 1,
+          "2026-10-07": 0,
+          "2026-10-08": 1,
+          "2026-10-09": 0,
+          "2026-10-10": 0,
+          "2026-10-11": 1
+        },
+        "missing_days": [
+          "2026-09-28",
+          "2026-09-29",
+          "2026-10-01",
+          "2026-10-03",
+          "2026-10-05",
+          "2026-10-07",
+          "2026-10-09",
+          "2026-10-10"
+        ],
+        "median_duration": 575.5,
+        "evidence": "YouTube RSS published timestamps joined to channel video metadata",
+        "fit": "Short live-action memes and reaction inserts; sampled 0\u201335s. Readable text, portrait padding and a small watermark; full 9:32 source passed decode and pipeline checks.",
+        "sample_urls": [
+          "https://www.youtube.com/watch?v=KFMIEIZkaSI",
+          "https://www.youtube.com/watch?v=rK0yGElE7ks"
+        ],
+        "rank": 1,
+        "verified_uploads": [
+          {
+            "id": "KFMIEIZkaSI",
+            "title": "The Most Brain-Rot Memes On The Internet",
+            "published_at": "2026-10-11T17:59:12+00:00",
+            "duration": 572
+          },
+          {
+            "id": "rK0yGElE7ks",
+            "title": "I Lost My Brain Watching These Clips...",
+            "published_at": "2026-10-08T18:00:02+00:00",
+            "duration": 517
+          },
+          {
+            "id": "wONG68hW3NE",
+            "title": "You Laugh You RESTART",
+            "published_at": "2026-10-06T18:00:28+00:00",
+            "duration": 579
+          },
+          {
+            "id": "9j6GSJuaARw",
+            "title": "You Laugh, You Softest Wettest Boy",
+            "published_at": "2026-10-04T18:42:27+00:00",
+            "duration": 531
+          },
+          {
+            "id": "rnyng6FWQJE",
+            "title": "You Laugh, You Are Done!",
+            "published_at": "2026-10-02T17:54:05+00:00",
+            "duration": 634
+          },
+          {
+            "id": "EVAri_IKmtc",
+            "title": "You Laugh, You Explode",
+            "published_at": "2026-09-30T19:30:18+00:00",
+            "duration": 749
+          }
+        ],
+        "evidence_missing": false
+      }
+    },
+    {
+      "id": "UCdIGk6ID4OvZLrPcCj1O7XA",
+      "name": "SmallCat",
+      "enabled": true,
+      "notes": "Less-frequent alternative; NOT verified daily. Short live-action memes, overlays and streaming reactions; sampled 0\u201335s. Captions remain legible; stronger editorial screening needed for edgy material.",
+      "research": {
+        "as_of": "2026-10-12",
+        "timezone": "America/New_York",
+        "daily_last_7": false,
+        "active_days_14": 7,
+        "uploads_per_day": {
+          "2026-09-28": 0,
+          "2026-09-29": 1,
+          "2026-09-30": 0,
+          "2026-10-01": 1,
+          "2026-10-02": 0,
+          "2026-10-03": 1,
+          "2026-10-04": 0,
+          "2026-10-05": 1,
+          "2026-10-06": 0,
+          "2026-10-07": 1,
+          "2026-10-08": 0,
+          "2026-10-09": 1,
+          "2026-10-10": 0,
+          "2026-10-11": 1
+        },
+        "missing_days": [
+          "2026-09-28",
+          "2026-09-30",
+          "2026-10-02",
+          "2026-10-04",
+          "2026-10-06",
+          "2026-10-08",
+          "2026-10-10"
+        ],
+        "median_duration": 1351,
+        "evidence": "YouTube RSS published timestamps joined to channel video metadata",
+        "fit": "Short live-action memes, overlays and streaming reactions; sampled 0\u201335s. Captions remain legible; stronger editorial screening needed for edgy material.",
+        "sample_urls": [
+          "https://www.youtube.com/watch?v=pZ4nEnzayxw",
+          "https://www.youtube.com/watch?v=MG-T57no-uE"
+        ],
+        "rank": 2,
+        "verified_uploads": [
+          {
+            "id": "pZ4nEnzayxw",
+            "title": "memes that made bro risk it all \ud83e\udd40",
+            "published_at": "2026-10-11T17:00:00+00:00",
+            "duration": 1414
+          },
+          {
+            "id": "MG-T57no-uE",
+            "title": "you laugh you get a j*b\ud83e\udd40",
+            "published_at": "2026-10-09T17:00:21+00:00",
+            "duration": 1596
+          },
+          {
+            "id": "9LcmQ_F9WAc",
+            "title": "memes that will make you lock in\ud83e\udd40",
+            "published_at": "2026-10-07T17:00:39+00:00",
+            "duration": 1225
+          },
+          {
+            "id": "uTJyIcObsA0",
+            "title": "memes that only boys understand",
+            "published_at": "2026-10-05T17:11:04+00:00",
+            "duration": 1339
+          },
+          {
+            "id": "V2hl-mVZsmQ",
+            "title": "40 minutes of offensive memes that if ylyl",
+            "published_at": "2026-10-03T17:00:17+00:00",
+            "duration": 2398
+          },
+          {
+            "id": "y7vU4meQ9Yw",
+            "title": "memes that will make you level up \ud83e\udd40",
+            "published_at": "2026-10-01T17:00:16+00:00",
+            "duration": 1240
+          },
+          {
+            "id": "lKZjsS9UMKE",
+            "title": "memes that aged catastrophically \ud83e\udd40",
+            "published_at": "2026-09-29T18:05:05+00:00",
+            "duration": 1351
+          }
+        ],
+        "evidence_missing": false
+      }
+    },
+    {
+      "id": "UCpnkp_D4FLPCiXOmDhoAeYA",
+      "name": "UnusualVideos",
+      "enabled": true,
+      "notes": "Less-frequent alternative; NOT verified daily. Animals, everyday mishaps and short live-action clips; sampled 0\u201340s. Clean cuts and portrait padding; visibly different opening selections from StreetCan and SmallCat.",
+      "research": {
+        "as_of": "2026-10-12",
+        "timezone": "America/New_York",
+        "daily_last_7": false,
+        "active_days_14": 2,
+        "uploads_per_day": {
+          "2026-09-28": 0,
+          "2026-09-29": 1,
+          "2026-09-30": 0,
+          "2026-10-01": 0,
+          "2026-10-02": 0,
+          "2026-10-03": 0,
+          "2026-10-04": 0,
+          "2026-10-05": 0,
+          "2026-10-06": 1,
+          "2026-10-07": 0,
+          "2026-10-08": 0,
+          "2026-10-09": 0,
+          "2026-10-10": 0,
+          "2026-10-11": 0
+        },
+        "missing_days": [
+          "2026-09-28",
+          "2026-09-30",
+          "2026-10-01",
+          "2026-10-02",
+          "2026-10-03",
+          "2026-10-04",
+          "2026-10-05",
+          "2026-10-07",
+          "2026-10-08",
+          "2026-10-09",
+          "2026-10-10",
+          "2026-10-11"
+        ],
+        "median_duration": 450.0,
+        "evidence": "YouTube full video metadata timestamps for latest four uploads",
+        "fit": "Animals, everyday mishaps and short live-action clips; sampled 0\u201340s. Clean cuts and portrait padding; visibly different opening selections from StreetCan and SmallCat.",
+        "sample_urls": [
+          "https://www.youtube.com/watch?v=SXgGvp3U4Uw",
+          "https://www.youtube.com/watch?v=mj9_YtemnAk"
+        ],
+        "rank": 3,
+        "verified_uploads": [
+          {
+            "id": "SXgGvp3U4Uw",
+            "title": "UNUSUAL MEMES COMPILATION V393",
+            "duration": 450,
+            "published_at": "2026-10-06T09:16:58+00:00"
+          },
+          {
+            "id": "mj9_YtemnAk",
+            "title": "UNUSUAL MEMES COMPILATION V392",
+            "duration": 450,
+            "published_at": "2026-09-29T09:31:08+00:00"
+          }
+        ],
+        "evidence_missing": false
+      }
+    },
+    {
+      "id": "UC9BMWLruGWsr1nTzFqmMfHw",
+      "name": "The Meme Sheep",
+      "enabled": false,
+      "notes": "Less-frequent alternative; NOT verified daily. One-hour compilations supply volume but require lengthy review. Sample downloads failed (HTTP 403); content fit and audio remain unverified. Disabled backup.",
+      "research": {
+        "as_of": "2026-10-12",
+        "timezone": "America/New_York",
+        "daily_last_7": false,
+        "active_days_14": 3,
+        "uploads_per_day": {
+          "2026-09-28": 0,
+          "2026-09-29": 1,
+          "2026-09-30": 0,
+          "2026-10-01": 0,
+          "2026-10-02": 1,
+          "2026-10-03": 0,
+          "2026-10-04": 0,
+          "2026-10-05": 0,
+          "2026-10-06": 0,
+          "2026-10-07": 1,
+          "2026-10-08": 0,
+          "2026-10-09": 0,
+          "2026-10-10": 0,
+          "2026-10-11": 0
+        },
+        "missing_days": [
+          "2026-09-28",
+          "2026-09-30",
+          "2026-10-01",
+          "2026-10-03",
+          "2026-10-04",
+          "2026-10-05",
+          "2026-10-06",
+          "2026-10-08",
+          "2026-10-09",
+          "2026-10-10",
+          "2026-10-11"
+        ],
+        "median_duration": 4007,
+        "evidence": "YouTube RSS published timestamps joined to channel video metadata",
+        "fit": "One-hour compilations supply volume but require lengthy review. Sample downloads failed (HTTP 403); content fit and audio remain unverified. Disabled backup.",
+        "sample_urls": [
+          "https://www.youtube.com/watch?v=k4i9F-Vp8HI",
+          "https://www.youtube.com/watch?v=QCFtlstPjWU"
+        ],
+        "rank": 4,
+        "verified_uploads": [
+          {
+            "id": "QCFtlstPjWU",
+            "title": "if you laugh before the 1-hour mark you lose",
+            "published_at": "2026-10-07T14:23:46+00:00",
+            "duration": 3749
+          },
+          {
+            "id": "5Tb9PngAfwU",
+            "title": "YOU LAUGH, YOU RESTART (actually impossible) 1 hour",
+            "published_at": "2026-10-02T16:33:52+00:00",
+            "duration": 4025
+          },
+          {
+            "id": "1kovZTNR5wE",
+            "title": "1 hour of memes but you laugh you restart (hardest)",
+            "published_at": "2026-09-29T17:28:31+00:00",
+            "duration": 4007
+          }
+        ],
+        "evidence_missing": false
+      }
+    },
+    {
+      "id": "UCo2AHbQRAtJr-DRDb4-tJIQ",
+      "name": "Dumbas",
+      "enabled": false,
+      "notes": "Less-frequent alternative; NOT verified daily. Frequent meme uploads, but topics suggest text/image memes as well as clips. Content fit remains unverified. Disabled backup.",
+      "research": {
+        "as_of": "2026-10-12",
+        "timezone": "America/New_York",
+        "daily_last_7": false,
+        "active_days_14": 10,
+        "uploads_per_day": {
+          "2026-09-28": 1,
+          "2026-09-29": 1,
+          "2026-09-30": 1,
+          "2026-10-01": 0,
+          "2026-10-02": 1,
+          "2026-10-03": 1,
+          "2026-10-04": 1,
+          "2026-10-05": 0,
+          "2026-10-06": 1,
+          "2026-10-07": 0,
+          "2026-10-08": 1,
+          "2026-10-09": 1,
+          "2026-10-10": 1,
+          "2026-10-11": 0
+        },
+        "missing_days": [
+          "2026-10-01",
+          "2026-10-05",
+          "2026-10-07",
+          "2026-10-11"
+        ],
+        "median_duration": 638.0,
+        "evidence": "YouTube RSS published timestamps joined to channel video metadata",
+        "fit": "Frequent meme uploads, but topics suggest text/image memes as well as clips. Content fit remains unverified. Disabled backup.",
+        "sample_urls": [
+          "https://www.youtube.com/watch?v=A8AsK10VgPQ",
+          "https://www.youtube.com/watch?v=JQF0RS5w2bw"
+        ],
+        "rank": 5,
+        "verified_uploads": [
+          {
+            "id": "JQF0RS5w2bw",
+            "title": "FINAL BOSS MEMES",
+            "published_at": "2026-10-10T20:13:18+00:00",
+            "duration": 616
+          },
+          {
+            "id": "U41X6Falwao",
+            "title": "Duolingo Memes",
+            "published_at": "2026-10-09T20:29:02+00:00",
+            "duration": 674
+          },
+          {
+            "id": "QwLutMbOSxo",
+            "title": "Jokes Memes",
+            "published_at": "2026-10-08T20:38:18+00:00",
+            "duration": 591
+          },
+          {
+            "id": "PANhee6Qtbw",
+            "title": "Today I Learned",
+            "published_at": "2026-10-07T20:06:59+00:00",
+            "duration": 686
+          },
+          {
+            "id": "6GsBHE9DQU4",
+            "title": "LIFE HACK MEMES",
+            "published_at": "2026-10-06T19:00:22+00:00",
+            "duration": 635
+          },
+          {
+            "id": "Xm6P4gBF-wo",
+            "title": "memes that reduce stress",
+            "published_at": "2026-10-04T20:27:01+00:00",
+            "duration": 1276
+          },
+          {
+            "id": "GVKkIMoe3p8",
+            "title": "Insane Russia Memes",
+            "published_at": "2026-10-03T19:00:16+00:00",
+            "duration": 643
+          },
+          {
+            "id": "JHs9Ue_XeJI",
+            "title": "Memes to say Hold Up",
+            "published_at": "2026-10-02T20:24:26+00:00",
+            "duration": 566
+          },
+          {
+            "id": "urXHwdid3y8",
+            "title": "Pikachu Memes",
+            "published_at": "2026-09-30T19:34:56+00:00",
+            "duration": 641
+          },
+          {
+            "id": "ccNx4Grana8",
+            "title": "Food Memes",
+            "published_at": "2026-09-29T19:00:15+00:00",
+            "duration": 745
+          },
+          {
+            "id": "FiQNPZdueiQ",
+            "title": "Memes To Save",
+            "published_at": "2026-09-28T20:03:02+00:00",
+            "duration": 580
+          }
+        ],
+        "evidence_missing": false
+      }
+    }
+  ]
+}
