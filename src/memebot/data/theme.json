@@ -1,0 +1,58 @@
+{
+  "version": "alpha",
+  "colors": {
+    "primary": "#3155C6",
+    "background": "#F4F6FB",
+    "surface": "#FFFFFF",
+    "ink": "#202B45",
+    "muted": "#52617B",
+    "border": "#DCE2EE",
+    "success": "#276746",
+    "warning": "#876016",
+    "danger": "#A22A42"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "Avenir Next, Trebuchet MS, sans-serif"
+    },
+    "body": {
+      "fontFamily": "system-ui, -apple-system, sans-serif"
+    },
+    "utility": {
+      "fontFamily": "SFMono-Regular, Consolas, monospace"
+    }
+  },
+  "rounded": {
+    "control": "8px",
+    "panel": "12px"
+  },
+  "spacing": {
+    "small": "8px",
+    "medium": "16px",
+    "large": "24px"
+  },
+  "components": {
+    "primary-action": {
+      "backgroundColor": "#3155C6",
+      "textColor": "#FFFFFF"
+    },
+    "body": {
+      "textColor": "{colors.ink}"
+    },
+    "caption": {
+      "textColor": "{colors.muted}"
+    },
+    "divider": {
+      "backgroundColor": "{colors.border}"
+    },
+    "success": {
+      "textColor": "{colors.success}"
+    },
+    "warning": {
+      "textColor": "{colors.warning}"
+    },
+    "error": {
+      "textColor": "{colors.danger}"
+    }
+  }
+}
